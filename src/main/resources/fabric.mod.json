@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "betterendsky",
+    "version": "${version}",
+    "name": "BetterEndSky",
+    "description": "Adds the End sky from the BetterEnd mod.",
+    "authors": [
+        "AzureLuma"
+    ],
+    "contact": {
+        "sources": "https://github.com/AzureLuma/BetterEndSky"
+    },
+    "license": "GPL-3.0",
+    "icon": "assets/betterendsky/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "me.azureluma.betterendsky.client.BetterEndSkyClient"
+        ],
+        "main": [
+            "me.azureluma.betterendsky.BetterEndSky"
+        ],
+        "modmenu": [
+            "me.azureluma.betterendsky.client.BetterEndSkyModMenu"
+        ]
+    },
+    "mixins": [
+        "betterendsky.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.11.6",
+        "fabric": ">=0.28.0",
+        "minecraft": "1.16.5",
+        "cloth-config2": "~4.11.0",
+        "bclib": ">=0.1.44"
+    }
+}

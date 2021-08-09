@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "me.azureluma.betterendsky.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+    ],
+    "client": [
+        "client.LevelRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
