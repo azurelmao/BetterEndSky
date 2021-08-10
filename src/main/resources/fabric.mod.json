@@ -2,7 +2,7 @@
     "schemaVersion": 1,
     "id": "betterendsky",
     "version": "${version}",
-    "name": "BetterEndSky",
+    "name": "BetterEnd Sky",
     "description": "Adds the End sky from the BetterEnd mod.",
     "authors": [
         "AzureLuma"
