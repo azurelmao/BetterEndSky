@@ -8,11 +8,13 @@
         "AzureLuma"
     ],
     "contact": {
-        "sources": "https://github.com/AzureLuma/BetterEndSky"
+        "sources": "https://github.com/AzureLuma/BetterEndSky",
+        "homepage": "https://modrinth.com/mod/betterendsky",
+        "issues": "https://github.com/AzureLuma/BetterEndSky/issues"
     },
     "license": "LGPL-3.0",
     "icon": "assets/betterendsky/icon.png",
-    "environment": "*",
+    "environment": "client",
     "entrypoints": {
         "client": [
             "me.azureluma.betterendsky.client.BetterEndSkyClient"
